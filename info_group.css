@@ -1,0 +1,96 @@
+.infoGroup{
+    width: auto;
+    height: auto;
+    gap: 35px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* headline */
+.infoGroup{
+    width: auto;
+    height: 53px;
+    gap: 8px;
+}
+
+.infoGroup .headline h1{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+
+
+/* search bar */
+/* voir test.css */
+
+
+/* filter bar */
+.filtersPart{
+    display: flex;
+    width: auto;
+    height: 50px;
+    gap: 15px;
+}
+.filtersPart h2{
+    font-family: 'Raleway';
+    font-weight: 700;
+    size: 18px;
+    line-height: 21.13px;
+    text-align: center;
+    color: #000000;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+
+    width: auto;
+    height: 50px;
+    padding: 4px 19px;
+    /* padding: 4px 19px 4px 19px; */
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    gap: 10px;
+}
+
+.filter i{
+    width: 22px;
+    height: 22px;
+}
+
+.filter h3{
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    text-align: left;
+    color: #000000;
+}
+
+.filtersPart .filter:hover {
+    background-color: #DEEBFF;
+}
+
+/* Infobar */
+.infoBar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.infoBar i{
+    width: 24px;
+    height: 24px;
+    color: #0065FC;
+    border: 1px solid #D9D9D9;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

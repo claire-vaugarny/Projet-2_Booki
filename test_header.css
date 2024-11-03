@@ -1,0 +1,63 @@
+header{
+    width: auto;
+    height: 79px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#Logo{
+    width: auto;
+    height: auto;
+    padding: 30px 50px;
+    gap: 10px
+}
+
+
+/* partie menu à droite */
+menu{
+    list-style: none;
+    display: flex;
+    top: 0;
+    margin:0;
+    padding: 0 50px;
+    gap: 68px;
+}
+
+menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    top: 0px
+}
+
+menu .bar{
+    background-color: #F2F2F200 ;
+    opacity: 0%;
+    width: auto;
+    height: 2px;
+
+}
+
+menu a{
+    text-decoration: none; /*a enlever pendant l'intégration du code général car déjà dans le style général */
+    color: black;
+    top: 16px;
+    /* left: 181px;   */
+
+    /* typography */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;
+}
+
+/* pour le changement au survol */
+menu li:hover .bar{
+    background-color: #0065FC;
+    opacity: 100%;
+}
+
+menu li:hover a{
+    color: #0065FC;
+}
