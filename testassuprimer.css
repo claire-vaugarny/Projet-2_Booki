@@ -1,0 +1,50 @@
+/* .card{
+    width: 25%;
+    background-color: aqua;
+} */
+
+.activites-cards{
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* .testimage img{
+    width: 25%;
+    height: 100px;
+} */
+.activites-cards a{
+    width: 25%;
+
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
+.activites-cards .card img{
+    /* flex: 1; */
+    /* Cela indique que l'élément peut grandir pour occuper l'espace disponible
+    dans le conteneur flexible. Dans ce cas, une valeur de 1 signifie que l'élément
+    peut prendre tout l'espace disponible après que les autres éléments aient pris leur place. */
+    width: 100%;
+    /* occupe 100% de cet espace */
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.card h3{
+    width: 100%;
+    height: auto;
+}

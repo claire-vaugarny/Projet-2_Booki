@@ -1,0 +1,48 @@
+body{
+    font-family: 'Raleway';
+  font-style: normal;
+}
+
+#filterBar{
+    display: flex;
+    gap: 10px;
+}
+#filterBar :hover{
+    background-color: #DEEBFF;
+}
+
+
+.filterTag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+
+    width: auto;
+    height: 50px;
+    padding: 4px 19px;
+    /* padding: 4px 19px 4px 19px; */
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    gap: 10px;
+
+}
+h3{
+    margin: 0;
+}
+
+.filterTag i{
+    width: 22px;
+    height: 22px;
+}
+
+.filterTag p{
+    font-family: Raleway;
+font-size: 17px;
+font-weight: 700;
+line-height: 19.96px;
+text-align: left;
+color: #000000;
+}
+
