@@ -131,21 +131,6 @@ menu li:hover a{
     flex-direction: column;
 }
 
-/* headline */
-.infoGroup{
-    width: auto;
-    height: auto;
-    gap: 35pxpx;
-}
-
-.infoGroup .headline h1{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 25.83px;
-}
-
-
 /* search bar */
 form{
     width: 377px;
@@ -173,7 +158,6 @@ form .searchText{
     height: 100%;
     box-sizing: border-box;
 
-    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 21.13px;
@@ -195,7 +179,6 @@ form button{
     border: 1px solid #0065FC;
     border-radius: 0 15px 15px 0;
 
-    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     size: 18px;
     line-height: 21.13px;
@@ -205,8 +188,12 @@ form button{
 form .mobileBtn{
     display: none;
 }
-
-
+/* headline */
+.infoGroup .headline h1{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+}
 /* filter bar */
 .filtersPart{
     display: flex;
@@ -216,7 +203,6 @@ form .mobileBtn{
     align-items: center;
 }
 .filtersPart h2{
-    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     size: 18px;
     line-height: 21.13px;
@@ -253,7 +239,6 @@ form .mobileBtn{
 }
 
 .filter h3{
-    font-family: 'Raleway';
     font-size: 17px;
     font-weight: 700;
     line-height: 19.96px;
@@ -305,7 +290,6 @@ form .mobileBtn{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .hebergements-and-.hebergements-cards{
@@ -367,7 +351,6 @@ form .mobileBtn{
 
 
 .hebergements h3{
-    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 18.78px;
@@ -582,12 +565,6 @@ footer p{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    body{
-        margin:0;
-    }
-    .main-container{
-        padding: 0;
-    }
     main {
         margin: 0;
     }
@@ -674,7 +651,6 @@ footer p{
         width: fit-content;
     }
     .infoGroup .filtersPart .blocs4{
-        width: 100%;
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
