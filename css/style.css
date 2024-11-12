@@ -133,7 +133,6 @@ menu li:hover a{
 
 /* search bar */
 form{
-    width: 377px;
     height: 49px;
 
     display: flex;
@@ -221,10 +220,9 @@ form .mobileBtn{
     flex-direction: row;
 
     box-sizing: border-box; /*inlcue le padding et les bordures dans la hauteur*/
-    width: auto;
+    width: fit-content;
     height: 50px;
     padding: 4px 19px;
-    /* padding: 4px 19px 4px 19px; */
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     gap: 10px;
@@ -248,20 +246,20 @@ form .mobileBtn{
 
 .filtersPart .filter:hover {
     background-color: #DEEBFF;
+    cursor: pointer;
 }
 
 /* Infobar */
 .infoBar{
+    width: fit-content;
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 10px;
 }
-
-.infoBar i{
+.infoBar .icon-container{
     width: 24px;
     height: 24px;
-
     color: #0065FC;
     border: 1px solid #D9D9D9;
     border-radius: 25px;
@@ -269,6 +267,12 @@ form .mobileBtn{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.infoBar i{
+    font-size: 12px;
+}
+.infoBar p{
+    width: 100%;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -622,15 +626,24 @@ footer p{
         gap: 8px;
     }
     form {
-        width: fit-content;
+        width: 100%;
         border: 1px solid #F2F2F2;
         border-radius: 15px;
+    }
+    form #carre{
+        padding: 0 18px;
+    }
+    form input{
+        width: 100%;
     }
     form #carre, form .searchText{
         border: none;
     }
     form .desktopBtn{
         display: none;
+    }
+    form #carre i {
+        font-size: 18px;
     }
     form .mobileBtn{
         display: block;
@@ -651,18 +664,19 @@ footer p{
         width: fit-content;
     }
     .infoGroup .filtersPart .blocs4{
+        width: 100%;
         display: flex;
+        justify-content: space-between;
+        gap: 10px;
         flex-wrap: wrap;
-        gap: 20px;
     }
     .infoGroup .filtersPart .blocs4 .filter{
-        width: 45%;
+        width: 48%;
         margin: 0;
         justify-content: left;
     }
     .infoBar{
         width: 100%;
-
     }
     .infoBar p{
         margin: 0;
