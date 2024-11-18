@@ -179,7 +179,7 @@ form button{
     border-radius: 0 15px 15px 0;
 
     font-weight: 700;
-    size: 18px;
+    font-size: 18px;
     line-height: 21.13px;
     text-align: center;
     color: #ffffff;
@@ -203,7 +203,7 @@ form .mobileBtn{
 }
 .filtersPart h2{
     font-weight: 700;
-    size: 18px;
+    font-size: 18px;
     line-height: 21.13px;
     text-align: center;
     color: #000000;
@@ -449,10 +449,12 @@ form .mobileBtn{
 
 .activites-cards .card-title{
     width: 100%;
-    height: fit-content;
+    height: 70px;
     box-sizing: border-box;
     padding: 20px 19px;
     border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -554,10 +556,7 @@ footer p{
     }
 
     .activites-cards .card-title{
-        height: 70px;
         margin: 0;
-        display: flex;
-        align-items: center;
     }
     .activites-cards a{
         height: fit-content;
